@@ -1,0 +1,32 @@
+{
+  "rarity":[
+    {
+        "name":"dwarfs",
+        "content":"Creado por enanos para proteger su piel de los rayos del sol y la generación de ataques elementales. La magia de las runas grabadas en su interior permitirá que un valiente guerrero cree"
+    },
+    {
+        "name":"jotnar",
+        "content":"Guantelete fabricado en Gastropnir con cuero de lobo y reforzado con metales de zonas de excavación de gigantes, presenta alta resistencia al daño, por lo que fue de repetido uso durante las guerrras antiguas. Aun puede emitir"
+    }
+  ],
+  "attack":[
+    {
+        "name":"gun",
+        "content":"fuertes proyectiles"
+    },
+    {
+        "name":"machine-gun",
+        "content":"rafagas destructivas"
+    }
+  ],
+  "element":[
+    {
+        "name":"fire",
+        "content":"de ondas de fuego infernal."
+    },
+    {
+        "name":"water",
+        "content":"aplastantes de agua."
+    }
+  ]
+}
