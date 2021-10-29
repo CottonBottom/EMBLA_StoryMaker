@@ -15,7 +15,6 @@ code {
 .container {
   display: flex;
   flex-direction: column;
-  width: 500px;
   padding: 20px;
 }
 
@@ -43,4 +42,8 @@ code {
 
 .bottom label {
   margin-bottom: 8px;
+}
+
+td {
+  padding: 10px;
 }
