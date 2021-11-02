@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/EMBLA_StoryMaker/static/css/main.b6c3dcaa.chunk.css",
+    "main.js": "/EMBLA_StoryMaker/static/js/main.3e1850c7.chunk.js",
+    "main.js.map": "/EMBLA_StoryMaker/static/js/main.3e1850c7.chunk.js.map",
+    "runtime-main.js": "/EMBLA_StoryMaker/static/js/runtime-main.58dc346e.js",
+    "runtime-main.js.map": "/EMBLA_StoryMaker/static/js/runtime-main.58dc346e.js.map",
+    "static/js/2.5d6d50e7.chunk.js": "/EMBLA_StoryMaker/static/js/2.5d6d50e7.chunk.js",
+    "static/js/2.5d6d50e7.chunk.js.map": "/EMBLA_StoryMaker/static/js/2.5d6d50e7.chunk.js.map",
+    "static/js/3.e5579bcf.chunk.js": "/EMBLA_StoryMaker/static/js/3.e5579bcf.chunk.js",
+    "static/js/3.e5579bcf.chunk.js.map": "/EMBLA_StoryMaker/static/js/3.e5579bcf.chunk.js.map",
+    "index.html": "/EMBLA_StoryMaker/index.html",
+    "static/css/main.b6c3dcaa.chunk.css.map": "/EMBLA_StoryMaker/static/css/main.b6c3dcaa.chunk.css.map",
+    "static/js/2.5d6d50e7.chunk.js.LICENSE.txt": "/EMBLA_StoryMaker/static/js/2.5d6d50e7.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.58dc346e.js",
+    "static/js/2.5d6d50e7.chunk.js",
+    "static/css/main.b6c3dcaa.chunk.css",
+    "static/js/main.3e1850c7.chunk.js"
+  ]
+}
