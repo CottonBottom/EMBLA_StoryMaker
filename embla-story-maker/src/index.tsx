@@ -4,6 +4,8 @@ import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import StoryMaker from "./StoryMaker/StoryMaker";
 
+//TODO: Page changing
+
 ReactDOM.render(
   <React.StrictMode>
     <StoryMaker />

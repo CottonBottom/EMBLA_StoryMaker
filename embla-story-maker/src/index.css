@@ -34,6 +34,13 @@ code {
   margin-right: 8px;
 }
 
+.middle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  margin-bottom: 40px;
+}
+
 .bottom {
   display: flex;
   flex-direction: column;
