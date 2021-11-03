@@ -1,0 +1,9 @@
+{
+  "hairs":["hair_one","hair_two","hair_three","hair_four", "hair_five"],
+  "faces":["face_one","face_two","face_three","face_four", "face_five"],
+  "bodies":["body_one","body_two","body_three","body_four", "body_five", "body_six"],
+  "left_arms":["left_arm_one","left_arm_two","left_arm_three","left_arm_four", "left_arm_five"],
+  "right_arms":["right_arm_one","right_arm_two","right_arm_three","right_arm_four", "right_arm_five"],
+  "left_legs":["left_leg_one","left_leg_two","left_leg_three","left_leg_four", "left_leg_five"],
+  "right_legs":["right_leg_one","right_leg_two","right_leg_three","right_leg_four", "right_leg_five"]
+}

@@ -4,13 +4,7 @@ import DollMaker from "./DollMaker/DollMaker";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import StoryMaker from "./StoryMaker/StoryMaker";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Link,
-  Redirect,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>

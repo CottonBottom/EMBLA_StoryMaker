@@ -1,20 +1,9 @@
 {
-  "hairs":["hair_one","hair_two","hair_three"],
-  "faces":["face_one","face_two","face_three"],
-  "bodies":["body_one","body_two","body_three"],
-  "parts":[
-    "head",
-    "left_arm_top",
-    "left_arm_middle",
-    "left_arm_bottom",
-    "right_arm_top",
-    "right_arm_middle",
-    "right_arm_bottom",
-    "left_leg_top",
-    "left_leg_middle",
-    "left_leg_bottom",
-    "right_leg_top",
-    "right_leg_middle",
-    "right_leg_bottom"
-  ]
+  "hairs":["hair_one","hair_two","hair_three","hair_four", "hair_five", "hair_six", "hair_seven", "hair_eight", "hair_nine", "hair_ten"],
+  "faces":["face_one","face_two","face_three","face_four", "face_five", "face_six", "face_seven", "face_eight", "face_nine", "face_ten"],
+  "bodies":["body_one","body_two","body_three","body_four", "body_five", "body_six", "body_seven", "body_eight", "body_nine", "body_ten"],
+  "left_arms":["left_arm_one","left_arm_two","left_arm_three","left_arm_four", "left_arm_five", "left_arm_six", "left_arm_seven", "left_arm_eight", "left_arm_nine", "left_arm_ten"],
+  "right_arms":["right_arm_one","right_arm_two","right_arm_three","right_arm_four", "right_arm_five", "right_arm_six", "right_arm_seven", "right_arm_eight", "right_arm_nine", "right_arm_ten"],
+  "left_legs":["left_leg_one","left_leg_two","left_leg_three","left_leg_four", "left_leg_five", "left_leg_six", "left_leg_seven", "left_leg_eight", "left_leg_nine", "left_leg_ten"],
+  "right_legs":["right_leg_one","right_leg_two","right_leg_three","right_leg_four", "right_leg_five", "right_leg_six", "right_leg_seven", "right_leg_eight", "right_leg_nine", "right_leg_ten"]
 }

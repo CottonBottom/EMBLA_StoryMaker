@@ -41,6 +41,11 @@ code {
   margin-bottom: 40px;
 }
 
+.label-set {
+  display: flex;
+  flex-direction: column;
+}
+
 .bottom {
   display: flex;
   flex-direction: column;
@@ -53,4 +58,8 @@ code {
 
 td {
   padding: 10px;
+}
+
+.table-top {
+  padding: 20px 0px;
 }
