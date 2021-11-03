@@ -1,14 +1,33 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import DollMaker from "./DollMaker/DollMaker";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import StoryMaker from "./StoryMaker/StoryMaker";
-
-//TODO: Page changing
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  Redirect,
+} from "react-router-dom";
 
 ReactDOM.render(
   <React.StrictMode>
-    <StoryMaker />
+    <Router>
+      <div className="container">
+        <div className="top">
+          <Link to="/story">Story Maker</Link>
+          <Link to="/doll">Doll Maker</Link>
+        </div>
+      </div>
+      <Route exact path="/story">
+        <StoryMaker />
+      </Route>
+      <Route exact path="/doll">
+        <DollMaker />
+      </Route>
+    </Router>
   </React.StrictMode>,
   document.getElementById("root")
 );
