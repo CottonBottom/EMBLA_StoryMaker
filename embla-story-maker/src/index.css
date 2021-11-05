@@ -63,3 +63,30 @@ td {
 .table-top {
   padding: 20px 0px;
 }
+
+/* Images */
+
+.image-cell {
+  width: 300px;
+}
+
+.image-container {
+  position: relative;
+}
+
+.base {
+  width: 300px;
+  object-fit: cover;
+}
+
+.part {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 300px;
+  object-fit: cover;
+}
+
+.arm {
+  z-index: -1;
+}
