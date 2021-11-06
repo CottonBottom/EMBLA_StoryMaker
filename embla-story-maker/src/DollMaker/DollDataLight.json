@@ -1,8 +1,6 @@
 {
   "cabeza":["bd1","bd2"],
-  "torso":["bd1","bd2"],
-  "brazoizq":["bd1","bd2"],
-  "brazoder":["bd1","bd2"],
-  "piernaizq":["bd1","bd2"],
+  "torso_brazoizq":["bd1","bd2"],
+  "brazoder_piernaizq":["bd1","bd2"],
   "piernader":["bd1","bd2"]
 }

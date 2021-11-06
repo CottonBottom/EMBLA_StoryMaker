@@ -32,10 +32,8 @@ const allBrokenParts = [
 
 const DollMaker = () => {
   const [head, setHead] = useState<string>("no head");
-  const [torso, setTorso] = useState<string>("no torso");
-  const [leftArm, setLeftArm] = useState<string>("no left arm");
-  const [rightArm, setRightArm] = useState<string>("no right arm");
-  const [leftLeg, setLeftLeg] = useState<string>("no left leg");
+  const [leftSide, setLeftSide] = useState<string>("no left side");
+  const [rightSide, setRightSide] = useState<string>("no right side");
   const [rightLeg, setRightLeg] = useState<string>("no right leg");
 
   const getBodyPart = (bodyPart: string[]) => {
@@ -47,7 +45,7 @@ const DollMaker = () => {
   };
 
   const makeBody = () => {
-    return `${head} ${torso} ${leftArm} ${rightArm} ${leftLeg} ${rightLeg}`;
+    return `${head} ${leftSide} ${rightSide} ${rightLeg}`;
   };
 
   const makeImageName = (bd: string, part: string) => {
@@ -64,25 +62,23 @@ const DollMaker = () => {
   const makeRows = () => {
     const arrayOfArrays = [
       dollData.cabeza,
-      dollData.torso,
-      dollData.brazoizq,
-      dollData.brazoder,
-      dollData.piernaizq,
+      dollData.torso_brazoizq,
+      dollData.brazoder_piernaizq,
       dollData.piernader,
     ];
     const allCombinations = combineArrays(arrayOfArrays);
     console.log("All combinations: ", allCombinations.length);
     const onlySomeArrays = allCombinations.slice(10);
 
-    return onlySomeArrays.map((combination, index) => {
+    return allCombinations.map((combination, index) => {
       const comboArray = combination.split(",");
       comboArray.pop();
       const head = makeImageName(comboArray[0], "cabeza");
       const torso = makeImageName(comboArray[1], "torso");
-      const leftArm = makeImageName(comboArray[2], "brazoizq");
-      const rightArm = makeImageName(comboArray[3], "brazoder");
-      const leftLeg = makeImageName(comboArray[4], "piernaizq");
-      const rightLeg = makeImageName(comboArray[5], "piernader");
+      const leftArm = makeImageName(comboArray[1], "brazoizq");
+      const rightArm = makeImageName(comboArray[2], "brazoder");
+      const leftLeg = makeImageName(comboArray[2], "piernaizq");
+      const rightLeg = makeImageName(comboArray[3], "piernader");
       return (
         <tr>
           <td>{index + 1}</td>
@@ -124,11 +120,9 @@ const DollMaker = () => {
           <td>
             <ul>
               <li>head: {comboArray[0]}</li>
-              <li>torso: {comboArray[1]}</li>
-              <li>leftArm: {comboArray[2]}</li>
-              <li>rightArm: {comboArray[3]}</li>
-              <li>leftLeg: {comboArray[4]}</li>
-              <li>rightLeg: {comboArray[5]}</li>
+              <li>leftSide: {comboArray[1]}</li>
+              <li>rightSide: {comboArray[2]}</li>
+              <li>rightLeg: {comboArray[3]}</li>
             </ul>
           </td>
         </tr>
@@ -138,67 +132,81 @@ const DollMaker = () => {
 
   return (
     <div className="container">
-      <div className="top">
-        <div className="label-set">
-          <label htmlFor="head">Head</label>
-          <select
-            name=""
-            id="head"
-            onChange={(e) => setHead(makeImageName(e.target.value, "cabeza"))}
-          >
-            {getBodyPart(dollData.cabeza)}
-          </select>
+      <div className="bd-maker-container">
+        <div className="result">
+          <label htmlFor="result">Result</label>
+          <div className="image-container">
+            <img
+              className="base torso"
+              src={getImage(makeImageName(leftSide, "torso"))}
+              alt={`torso`}
+            />
+            <img
+              className="part head"
+              src={getImage(makeImageName(head, "cabeza"))}
+              alt={`head`}
+            />
+            <img
+              className="part arm"
+              src={getImage(makeImageName(leftSide, "brazoizq"))}
+              alt={`leftArm`}
+            />
+            <img
+              className="part arm"
+              src={getImage(makeImageName(rightSide, "brazoder"))}
+              alt={`rightArm`}
+            />
+            <img
+              className="part leg"
+              src={getImage(makeImageName(rightSide, "piernaizq"))}
+              alt={`leftLeg`}
+            />
+            <img
+              className="part leg"
+              src={getImage(makeImageName(rightLeg, "piernader"))}
+              alt={`rightLeg`}
+            />
+          </div>
+          <textarea value={makeBody()} rows={5} />
         </div>
-        <div className="label-set">
-          <label htmlFor="torso">Torso</label>
-          <select name="" id="torso" onChange={(e) => setTorso(e.target.value)}>
-            {getBodyPart(dollData.torso)}
-          </select>
+        <div className="setup">
+          <div className="label-set">
+            <label htmlFor="head">Head</label>
+            <select name="" id="head" onChange={(e) => setHead(e.target.value)}>
+              {getBodyPart(dollData.cabeza)}
+            </select>
+          </div>
+          <div className="label-set">
+            <label htmlFor="left_side">Left Side</label>
+            <select
+              name=""
+              id="left_side"
+              onChange={(e) => setLeftSide(e.target.value)}
+            >
+              {getBodyPart(dollData.torso_brazoizq)}
+            </select>
+          </div>
+          <div className="label-set">
+            <label htmlFor="right_side">Right Side</label>
+            <select
+              name=""
+              id="right_side"
+              onChange={(e) => setRightSide(e.target.value)}
+            >
+              {getBodyPart(dollData.brazoder_piernaizq)}
+            </select>
+          </div>
+          <div className="label-set">
+            <label htmlFor="right_leg">Right Leg</label>
+            <select
+              name=""
+              id="right_leg"
+              onChange={(e) => setRightLeg(e.target.value)}
+            >
+              {getBodyPart(dollData.piernader)}
+            </select>
+          </div>
         </div>
-        <div className="label-set">
-          <label htmlFor="left_arm">Left Arm</label>
-          <select
-            name=""
-            id="left_arm"
-            onChange={(e) => setLeftArm(e.target.value)}
-          >
-            {getBodyPart(dollData.brazoizq)}
-          </select>
-        </div>
-        <div className="label-set">
-          <label htmlFor="right_arm">Right Arm</label>
-          <select
-            name=""
-            id="right_arm"
-            onChange={(e) => setRightArm(e.target.value)}
-          >
-            {getBodyPart(dollData.brazoder)}
-          </select>
-        </div>
-        <div className="label-set">
-          <label htmlFor="left_leg">Left Leg</label>
-          <select
-            name=""
-            id="left_leg"
-            onChange={(e) => setLeftLeg(e.target.value)}
-          >
-            {getBodyPart(dollData.piernaizq)}
-          </select>
-        </div>
-        <div className="label-set">
-          <label htmlFor="right_leg">Right Leg</label>
-          <select
-            name=""
-            id="right_leg"
-            onChange={(e) => setRightLeg(e.target.value)}
-          >
-            {getBodyPart(dollData.piernader)}
-          </select>
-        </div>
-      </div>
-      <div className="bottom">
-        <label htmlFor="result">Result</label>
-        <textarea value={makeBody()} rows={5} />
       </div>
       {/* <div className="table-top">
         <div className="label-set">
