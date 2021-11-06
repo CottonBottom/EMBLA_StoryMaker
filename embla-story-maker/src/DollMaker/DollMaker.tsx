@@ -31,10 +31,10 @@ const allBrokenParts = [
 ];
 
 const DollMaker = () => {
-  const [head, setHead] = useState<string>("no head");
-  const [leftSide, setLeftSide] = useState<string>("no left side");
-  const [rightSide, setRightSide] = useState<string>("no right side");
-  const [rightLeg, setRightLeg] = useState<string>("no right leg");
+  const [head, setHead] = useState<string>("bd1");
+  const [leftSide, setLeftSide] = useState<string>("bd1");
+  const [rightSide, setRightSide] = useState<string>("bd1");
+  const [rightLeg, setRightLeg] = useState<string>("bd1");
 
   const getBodyPart = (bodyPart: string[]) => {
     const options: JSX.Element[] = [<option hidden>select</option>];
@@ -167,7 +167,6 @@ const DollMaker = () => {
               alt={`rightLeg`}
             />
           </div>
-          <textarea value={makeBody()} rows={5} />
         </div>
         <div className="setup">
           <div className="label-set">
@@ -206,6 +205,7 @@ const DollMaker = () => {
               {getBodyPart(dollData.piernader)}
             </select>
           </div>
+          <textarea value={makeBody()} rows={5} />
         </div>
       </div>
       {/* <div className="table-top">
