@@ -1,0 +1,196 @@
+{
+  "rarity":[
+    {
+        "name":"asgard",
+        "content":"The giant Hrimthur left metals abandoned near the unfinished wall of Asgard, these were taken and embedded into this leather gauntlet by dwarves. When activated, the metal pieces allow to produce"
+    },
+    {
+        "name":"alfheim",
+        "content":"With authorization from Frey, the elves created this armament out of metal and leaves from Alfheim's trees. It was then enchanted by elven priests with arcane magic, this allows the wearer to generate"
+    },
+    {
+        "name":"jotunheim",
+        "content":"Crafted by humans from the fur of ferocious wolves and encrusted with ice from Jotunheim, obtained on an expedition to the far reaches of Midgard. If the weapon deems the user fit, he will be able to channel the spirit of the fallen, creating"
+    },
+    {
+        "name":"midgard",
+        "content":"King Aun requested the creation of this armor with leather, fabrics and metallic pieces to repel possible sieges to his kingdom. Being of high forge it presents great durability and resistance to the generation of elemental attacks. Perfect for attacks with strong projectiles"
+    },
+    // {
+    //     "name":"muspelheim",
+    //     "content":"Durante el Ragnarok, un seguidor de Sutr dejó caer en batalla trozos de un metal que no se consume con el fuego, este fue incluido en el guantelete por un descendiente del herrero enano Brutr. El material proveniente de Muspelheim produce"
+    // },
+    {
+        "name":"nidavellir",
+        "content":"After forging Freya's necklace, Dvalin and other dwarves made this weapon out of leather and metal in case any god wanted to attack them. The runes that were engraved on its interior create"
+    },
+    {
+        "name":"niflheim",
+        "content":"A frost giant established a weapons workshop in Niflheim, the perpetual fog of the place penetrated this gauntlet. Years later, a skilled warrior and his battle company awakened its ability to produce"
+    },
+    {
+        "name":"svartalfheim",
+        "content":"Battle gear used by dark elf servants during the sieges of Asgard. As it is made with unknown elements of Svartalheim, it has a capacity of destruction proportional to the level of evil of the wearer. Its damage consists of"
+    },
+    {
+        "name":"vanaheimr",
+        "content":"When immersed in the Tanais River, this weapon created by elves was impregnated with the spirit of nature. Those who consider themselves serene at heart will be able to call upon the strength of the environment to direct"
+    },
+    {
+        "name":"elves",
+        "content":"Lightweight bracelet made and blessed by elven bards with their war chants. Its composition of cloth and metallic rings attracted by arcane magic allows the wearer to expel"
+    },
+    {
+        "name":"trolls",
+        "content":"Durante las guerras entre especies los humanos desmembraron millares de trolles para la fabricación de elementos, como armas. Esta es una de estas creaciones, la cual presenta el espíritu de la naturaleza generando"
+    },
+    {
+        "name":"dwarfs",
+        "content":"Creado por enanos para proteger su piel de los rayos del sol y la generación de ataques elementales. La magia de las runas grabadas en su interior permitirá que un valiente guerrero cree"
+    },
+    {
+        "name":"jotnar",
+        "content":"Guantelete fabricado en Gastropnir con cuero de lobo y reforzado con metales de zonas de excavación de gigantes, presenta alta resistencia al daño, por lo que fue de repetido uso durante las guerrras antiguas. Aun puede emitir"
+    },
+    {
+        "name":"valkyries",
+        "content":"Esta pieza de armadura era entregada por las valkirias Sigrdrífa y Svanhvít a los seres humanos mas valerosos del campo de batalla, con lo que podrían luego acceder al Valhalla. Unidad usada para la creación de"
+    },
+    {
+        "name":"draugrs",
+        "content":"Soldados que perecian a manos de Draugrs se transformaban en estos, por lo que sus compañeros reforzaban el armamento con sus huesos. Debido a lo anterior este guantelete es una declaración de compañerismo que protege a su usuario creando"
+    },
+    {
+        "name":"black elves",
+        "content":"Los elfos oscuros preparaban armamento para la lucha contra los dioses. Su mas fuerte creación fue este guantelte sumergido en sangre de cuervos y con una hoja de hierro naranja. Su extraño metal emite oscuridad que se presenta como"
+    },
+    {
+        "name":"fire giants",
+        "content":"Fabricado con trozos de piel de gigantes de fuego este guantelete no deja de emitir poder elemental. Bravos guerreros han muerto calcinados por su gran poder aun al dirigir ataques a su enemigo. Quien lo use deberá dominar"
+    },
+    {
+        "name":"midgard serpent",
+        "content":"Luego de ser capturada por los dioses se extrajo veneno y sangre a Jormungandr, estos elementos llegaron a Brok quien los usó para bañar los metales con los que fabricaría este guantelete. La alta calidad en su herrería le otorga la escencia del ser mitologíco y su capacidad para manipular"
+    },
+    {
+        "name":"fenrir",
+        "content":"La perdida del brazo de Tyr demostró la posibilidad de herir a los dioses, esto inspiró a enanos a fabricar armas con las que herirlos, ayudados por las valkirias. Al estar fortalecido con el espíritu de Fenrir este puede moldear"
+    },
+    {
+        "name":"sleipnir",
+        "content":"El nacimiento de Sleipnir trajo consigo la creación de armas en su nombre, las cuales fueron reforzadas con sus herraduras desgastadas. Tiempo después fueron robadas por Loki que las extravió. Con estas se puede formar"
+    },
+    {
+        "name":"huginn",
+        "content":"De creador desconocido, este equipamiento fue encontrado cerca de la conexión del bifrost con Asgard por un explorador humano quien decidió replicarlo. Ante peligro el portador puede con su pensamiento manipular"
+    },
+    {
+        "name":"muninn",
+        "content":"En los viajes de Muninn sus plumas caían a todos los mundos, un viejo mercader decidió acumularlas para la creación de armas. Estas fueron finalmente entregadas a poderosos guerreros humanos quienes obtuviron la capacidad de crear"
+    },
+    {
+        "name":"ratatoskr",
+        "content":"Ratatosk al recorrer el arbol del mundo perdió trozos de su cuerpo. Humanos y enanos por años buscaron un fin para su carne pero no se encontró comestible o util para prendas, hasta que los elfos crearon guanteletes como este, generadores de"
+    },
+    {
+        "name":"kraken",
+        "content":"Poderoso navegante el que en el pasado con sus manos y un arpón prolijo asesinó un Lyngbakr, el espíritu de este último quedó impregnado en unos metales para fabricar armas que llevaba en el barco. La expresión de la bestia se refleja como"
+    },
+    {
+        "name":"sutr",
+        "content":"La maldición que invadió a Sutr al asesinar a Frey le hizo caer vencido. Trozos de su espada fueron a parar al Bosque de Hodmímir, los cuales se fundieron para la crear unos pocos guanteletes que al ser adecuadamente equipados expulsan"
+    },
+    {
+        "name":"heimdall",
+        "content":"El protector de la puerta de los dioses al presentir su muerte descendió a la tierra y tuvo hijos con tres mujeres. Dos de ellos se convirtieron en grandes guerreros de linaje divino, se dice que las armaduras que usaban podían producir"
+    },
+    {
+        "name":"odin",
+        "content":"Mientras Odín volaba en forma de águila con la hidromiel en sus patas dejó caer su lanza secundaria, Iumir, por suerte llevaba a Gungni. El arma perdida fue reforjada para incluir parte de su metal en este guantelete, el cual provoca"
+    },
+    {
+        "name":"thor",
+        "content":"Sindri fue encargado de fabricar armas similares al Mjölnir por Odín, para equipar su ejercito de Einherjars. Estos fueron guanteltes que llevaban los materiales del arma de Thor y algunas de sus propiedades, como generar"
+    },
+    {
+        "name":"loki",
+        "content":"Las cadenas que ataban a Loki, hechas de los intestinos de uno de sus hijos, fueron soldadas a este guantelete por su esposa Sigyn como equipo para su ejercito, contra los dioses Aesir. Tras mucho tiempo del Ragnarok este aun produce"
+    },
+    {
+        "name":"freya",
+        "content":"Las almas que llegaban a Fólkvangr obtenían un brazalete conectado al espíritu de Freya, algunos de estos fueron tomados por las valquirias para preservar la humanidad durante el Ragnarok. Actualmente se usa en la batalla para crear"
+    },
+    {
+        "name":"frigg",
+        "content":"Frigg en su papel de Diosa madre entregó a la humanidad la técnica de Asgardreid, para mejorar sus capacidades durante la caza y por tanto la supervivencia. Su voluntad se tradujo en este guantalete que ilumina el camino con"
+    }
+  ],
+  "attack":[
+    {
+        "name":"gun",
+        "content":"fuertes proyectiles"
+    },
+    {
+        "name":"machine-gun",
+        "content":"rafagas destructivas"
+    },
+    {
+        "name":"shot-gun",
+        "content":"potentes golpes concentrados"
+    }
+  ],
+  "element":[
+    {
+        "name":"fire",
+        "content":"de ondas de fuego infernal."
+    },
+    {
+        "name":"water",
+        "content":"aplastantes de agua."
+    },
+    {
+        "name":"air",
+        "content":"con la potencia del viento."
+    },
+    {
+        "name":"earth",
+        "content":"de trozos de rocas rúnicas."
+    },
+    {
+        "name":"electric",
+        "content":"de fulminante descarga electrica."
+    },
+    {
+        "name":"ice",
+        "content":"de bloques de hielo comprimido."
+    },
+    {
+        "name":"firestorm",
+        "content":"de lluvia de fuego y trueno."
+    },
+    {
+        "name":"lava",
+        "content":"de ardiente roca fundida."
+    },
+    {
+        "name":"avalanche",
+        "content":"como una avalancha incontenible."
+    },
+    {
+        "name":"blizzard",
+        "content":"cual tormenta congelante arrasadora."
+    },
+    {
+        "name":"hurricane",
+        "content":"con la intensidad de los huracanes."
+    },
+    {
+        "name":"storm",
+        "content":"de vientos de tormenta colosal."
+    },
+    {
+        "name":"non-elemental",
+        "content":"que materializan la voluntad del usuario."
+    }
+  ]
+}
