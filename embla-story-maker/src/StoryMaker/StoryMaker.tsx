@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import storyData from "./StoryData.json";
+import storyData from "./StoryDataEn.json";
 import namingData from "./NamingData.json";
 import creatures from "./GauntletData/Creatures.json";
 import deity from "./GauntletData/Deity.json";

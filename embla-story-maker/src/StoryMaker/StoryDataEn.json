@@ -16,10 +16,10 @@
         "name":"midgard",
         "content":"King Aun requested the creation of this armor with leather, fabrics and metallic pieces to repel possible sieges to his kingdom. Being of high forge it presents great durability and resistance to the generation of elemental attacks. Perfect for attacks with strong projectiles"
     },
-    // {
-    //     "name":"muspelheim",
-    //     "content":"Durante el Ragnarok, un seguidor de Sutr dejó caer en batalla trozos de un metal que no se consume con el fuego, este fue incluido en el guantelete por un descendiente del herrero enano Brutr. El material proveniente de Muspelheim produce"
-    // },
+    {
+        "name":"muspelheim",
+        "content":"During Ragnarok, a follower of Sutr dropped in battle pieces of a metal that is not consumed by fire, this was included in the gauntlet by a descendant of the dwarven blacksmith Brutr. The material from Muspelheim produces"
+    },
     {
         "name":"nidavellir",
         "content":"After forging Freya's necklace, Dvalin and other dwarves made this weapon out of leather and metal in case any god wanted to attack them. The runes that were engraved on its interior create"
@@ -42,155 +42,155 @@
     },
     {
         "name":"trolls",
-        "content":"Durante las guerras entre especies los humanos desmembraron millares de trolles para la fabricación de elementos, como armas. Esta es una de estas creaciones, la cual presenta el espíritu de la naturaleza generando"
+        "content":"During the inter-species wars, humans dismembered thousands of trolls for the manufacture of items such as weapons. This is one of these creations, which features the spirit of nature generating"
     },
     {
         "name":"dwarfs",
-        "content":"Creado por enanos para proteger su piel de los rayos del sol y la generación de ataques elementales. La magia de las runas grabadas en su interior permitirá que un valiente guerrero cree"
+        "content":"Created by dwarves to protect their skin from the sun's rays and the generation of elemental attacks. The magic of the runes engraved inside will allow a brave warrior to create."
     },
     {
         "name":"jotnar",
-        "content":"Guantelete fabricado en Gastropnir con cuero de lobo y reforzado con metales de zonas de excavación de gigantes, presenta alta resistencia al daño, por lo que fue de repetido uso durante las guerrras antiguas. Aun puede emitir"
+        "content":"Gauntlet made in Gastropnir from wolf hide and reinforced with metals from giants' excavation areas, it presents high resistance to damage, so it was of repeated use during ancient wars. It can still emit"
     },
     {
         "name":"valkyries",
-        "content":"Esta pieza de armadura era entregada por las valkirias Sigrdrífa y Svanhvít a los seres humanos mas valerosos del campo de batalla, con lo que podrían luego acceder al Valhalla. Unidad usada para la creación de"
+        "content":"This piece of armor was given by the valkyries Sigrdrífa and Svanhvít to the most courageous humans on the battlefield, with which they could then gain access to Valhalla. Unit used for the creation of"
     },
     {
         "name":"draugrs",
-        "content":"Soldados que perecian a manos de Draugrs se transformaban en estos, por lo que sus compañeros reforzaban el armamento con sus huesos. Debido a lo anterior este guantelete es una declaración de compañerismo que protege a su usuario creando"
+        "content":"Soldiers who perished at the hands of Draugrs were transformed into Draugrs, so their companions reinforced the armament with their bones. Because of the above this gauntlet is a statement of companionship that protects its wearer by creating"
     },
     {
         "name":"black elves",
-        "content":"Los elfos oscuros preparaban armamento para la lucha contra los dioses. Su mas fuerte creación fue este guantelte sumergido en sangre de cuervos y con una hoja de hierro naranja. Su extraño metal emite oscuridad que se presenta como"
+        "content":"The dark elves prepared weaponry for the fight against the gods. Their strongest creation was this gauntlet dipped in raven blood and with an orange iron blade. Its strange metal emits darkness that appears as"
     },
     {
         "name":"fire giants",
-        "content":"Fabricado con trozos de piel de gigantes de fuego este guantelete no deja de emitir poder elemental. Bravos guerreros han muerto calcinados por su gran poder aun al dirigir ataques a su enemigo. Quien lo use deberá dominar"
+        "content":"Made from chunks of fire giants' skin this gauntlet never fails to emit elemental power. Brave warriors have been burned to death by its great power even while directing attacks at their enemy. Whoever wears it must master"
     },
     {
         "name":"midgard serpent",
-        "content":"Luego de ser capturada por los dioses se extrajo veneno y sangre a Jormungandr, estos elementos llegaron a Brok quien los usó para bañar los metales con los que fabricaría este guantelete. La alta calidad en su herrería le otorga la escencia del ser mitologíco y su capacidad para manipular"
+        "content":"After being captured by the gods poison and blood were extracted from Jormungandr, these elements reached Brok who used them to bathe the metals with which he would make this gauntlet. The high quality of his blacksmithing gives it the essence of the mythological being and his ability to manipulate"
     },
     {
         "name":"fenrir",
-        "content":"La perdida del brazo de Tyr demostró la posibilidad de herir a los dioses, esto inspiró a enanos a fabricar armas con las que herirlos, ayudados por las valkirias. Al estar fortalecido con el espíritu de Fenrir este puede moldear"
+        "content":"The loss of Tyr's arm demonstrated the possibility of wounding the gods, this inspired dwarves to make weapons with which to wound them, aided by the valkyries. Being strengthened with the spirit of Fenrir, it can shape"
     },
     {
         "name":"sleipnir",
-        "content":"El nacimiento de Sleipnir trajo consigo la creación de armas en su nombre, las cuales fueron reforzadas con sus herraduras desgastadas. Tiempo después fueron robadas por Loki que las extravió. Con estas se puede formar"
+        "content":"Sleipnir's birth brought about the creation of weapons in his name, which were strengthened with his worn horseshoes. Some time later they were stolen by Loki who misplaced them. With these it is possible to form"
     },
     {
         "name":"huginn",
-        "content":"De creador desconocido, este equipamiento fue encontrado cerca de la conexión del bifrost con Asgard por un explorador humano quien decidió replicarlo. Ante peligro el portador puede con su pensamiento manipular"
+        "content":"Of unknown creator, this equipment was found near the bifrost connection to Asgard by a human explorer who decided to replicate it. In the face of danger the wearer can with his thought manipulate"
     },
     {
         "name":"muninn",
-        "content":"En los viajes de Muninn sus plumas caían a todos los mundos, un viejo mercader decidió acumularlas para la creación de armas. Estas fueron finalmente entregadas a poderosos guerreros humanos quienes obtuviron la capacidad de crear"
+        "content":"In Muninn's travels his feathers fell to all worlds, an old merchant decided to accumulate them for the creation of weapons. These were eventually given to powerful human warriors who gained the ability to create"
     },
     {
         "name":"ratatoskr",
-        "content":"Ratatosk al recorrer el arbol del mundo perdió trozos de su cuerpo. Humanos y enanos por años buscaron un fin para su carne pero no se encontró comestible o util para prendas, hasta que los elfos crearon guanteletes como este, generadores de"
+        "content":"Ratatosk, as he wandered the world tree, lost pieces of his body. Humans and dwarves for years sought a purpose for his flesh but it was not found edible or useful for garments, until the elves created gauntlets like this one, generators of"
     },
     {
         "name":"kraken",
-        "content":"Poderoso navegante el que en el pasado con sus manos y un arpón prolijo asesinó un Lyngbakr, el espíritu de este último quedó impregnado en unos metales para fabricar armas que llevaba en el barco. La expresión de la bestia se refleja como"
+        "content":"Mighty sailor he who in the past with his hands and a neat harpoon slew a Lyngbakr, the spirit of the latter was impregnated in some weapon-making metals he carried on the ship. The expression of the beast is reflected as"
     },
     {
         "name":"sutr",
-        "content":"La maldición que invadió a Sutr al asesinar a Frey le hizo caer vencido. Trozos de su espada fueron a parar al Bosque de Hodmímir, los cuales se fundieron para la crear unos pocos guanteletes que al ser adecuadamente equipados expulsan"
+        "content":"The curse that invaded Sutr when he killed Frey made him fall down defeated. Pieces of his sword ended up in Hodmímir's Forest, which were melted down to create a few gauntlets that, when properly equipped, expel"
     },
     {
         "name":"heimdall",
-        "content":"El protector de la puerta de los dioses al presentir su muerte descendió a la tierra y tuvo hijos con tres mujeres. Dos de ellos se convirtieron en grandes guerreros de linaje divino, se dice que las armaduras que usaban podían producir"
+        "content":"The protector of the gate of the gods sensing his death descended to earth and had children with three women. Two of them became great warriors of divine lineage, it is said that the armor they wore could produce"
     },
     {
         "name":"odin",
-        "content":"Mientras Odín volaba en forma de águila con la hidromiel en sus patas dejó caer su lanza secundaria, Iumir, por suerte llevaba a Gungni. El arma perdida fue reforjada para incluir parte de su metal en este guantelete, el cual provoca"
+        "content":"As Odin flew in eagle form with mead in his paws he dropped his secondary spear, Iumir, luckily he was carrying Gungni. The lost weapon was reforged to include part of its metal in this gauntlet, which provokes"
     },
     {
         "name":"thor",
-        "content":"Sindri fue encargado de fabricar armas similares al Mjölnir por Odín, para equipar su ejercito de Einherjars. Estos fueron guanteltes que llevaban los materiales del arma de Thor y algunas de sus propiedades, como generar"
+        "content":"Sindri was commissioned to make weapons similar to the Mjölnir by Odin, to equip his army of Einherjars. These were gauntlets that carried the materials of Thor's weapon and some of its properties, such as generating"
     },
     {
         "name":"loki",
-        "content":"Las cadenas que ataban a Loki, hechas de los intestinos de uno de sus hijos, fueron soldadas a este guantelete por su esposa Sigyn como equipo para su ejercito, contra los dioses Aesir. Tras mucho tiempo del Ragnarok este aun produce"
+        "content":"The chains that bound Loki, made from the intestines of one of his sons, were welded to this gauntlet by his wife Sigyn as equipment for his army against the Aesir gods. After a long time after Ragnarok it still produces"
     },
     {
         "name":"freya",
-        "content":"Las almas que llegaban a Fólkvangr obtenían un brazalete conectado al espíritu de Freya, algunos de estos fueron tomados por las valquirias para preservar la humanidad durante el Ragnarok. Actualmente se usa en la batalla para crear"
+        "content":"The souls that came to Fólkvangr obtained a bracelet connected to the spirit of Freya, some of these were taken by the valkyries to preserve humanity during Ragnarok. It is currently used in battle to create"
     },
     {
         "name":"frigg",
-        "content":"Frigg en su papel de Diosa madre entregó a la humanidad la técnica de Asgardreid, para mejorar sus capacidades durante la caza y por tanto la supervivencia. Su voluntad se tradujo en este guantalete que ilumina el camino con"
+        "content":"Frigg in her role as Mother Goddess gave humanity the Asgardreid technique, to improve their abilities during the hunt and thus survival. Her will was translated into this gauntlet that illuminates the way with"
     }
   ],
   "attack":[
     {
         "name":"gun",
-        "content":"fuertes proyectiles"
+        "content":"strong projectiles"
     },
     {
         "name":"machine-gun",
-        "content":"rafagas destructivas"
+        "content":"destructive blasts"
     },
     {
         "name":"shot-gun",
-        "content":"potentes golpes concentrados"
+        "content":"powerful concentrated shots"
     }
   ],
   "element":[
     {
         "name":"fire",
-        "content":"de ondas de fuego infernal."
+        "content":"of waves of hellfire."
     },
     {
         "name":"water",
-        "content":"aplastantes de agua."
+        "content":"crushing waves of water."
     },
     {
         "name":"air",
-        "content":"con la potencia del viento."
+        "content":"with the power of wind."
     },
     {
         "name":"earth",
-        "content":"de trozos de rocas rúnicas."
+        "content":"of pieces of runic rocks."
     },
     {
         "name":"electric",
-        "content":"de fulminante descarga electrica."
+        "content":"of fulminating electric discharge."
     },
     {
         "name":"ice",
-        "content":"de bloques de hielo comprimido."
+        "content":"of compressed ice blocks."
     },
     {
         "name":"firestorm",
-        "content":"de lluvia de fuego y trueno."
+        "content":"of rain of fire and thunder."
     },
     {
         "name":"lava",
-        "content":"de ardiente roca fundida."
+        "content":"of fiery molten rock."
     },
     {
         "name":"avalanche",
-        "content":"como una avalancha incontenible."
+        "content":"like an uncontainable avalanche."
     },
     {
         "name":"blizzard",
-        "content":"cual tormenta congelante arrasadora."
+        "content":"like a raging freezing storm."
     },
     {
         "name":"hurricane",
-        "content":"con la intensidad de los huracanes."
+        "content":"with the intensity of hurricanes."
     },
     {
         "name":"storm",
-        "content":"de vientos de tormenta colosal."
+        "content":"of colossal storm winds."
     },
     {
         "name":"non-elemental",
-        "content":"que materializan la voluntad del usuario."
+        "content":"materializing the will of the user."
     }
   ]
 }
