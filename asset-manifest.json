@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/EMBLA_StoryMaker/static/css/main.3cfc7c37.chunk.css",
-    "main.js": "/EMBLA_StoryMaker/static/js/main.60215e5a.chunk.js",
-    "main.js.map": "/EMBLA_StoryMaker/static/js/main.60215e5a.chunk.js.map",
+    "main.js": "/EMBLA_StoryMaker/static/js/main.bd2ede56.chunk.js",
+    "main.js.map": "/EMBLA_StoryMaker/static/js/main.bd2ede56.chunk.js.map",
     "runtime-main.js": "/EMBLA_StoryMaker/static/js/runtime-main.ff8213ee.js",
     "runtime-main.js.map": "/EMBLA_StoryMaker/static/js/runtime-main.ff8213ee.js.map",
     "static/js/2.a3154ea5.chunk.js": "/EMBLA_StoryMaker/static/js/2.a3154ea5.chunk.js",
@@ -29,6 +29,6 @@
     "static/js/runtime-main.ff8213ee.js",
     "static/js/2.a3154ea5.chunk.js",
     "static/css/main.3cfc7c37.chunk.css",
-    "static/js/main.60215e5a.chunk.js"
+    "static/js/main.bd2ede56.chunk.js"
   ]
 }
