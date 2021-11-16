@@ -2,24 +2,36 @@ import React, { useState } from "react";
 import { combineArrays } from "./ArrayMethods";
 import dollData from "./DollDataLight.json";
 //Broken dolls:
-import bd1_cabeza from "./Dolls/01_bd1_cabeza.png";
-import bd2_cabeza from "./Dolls/01_bd2_cabeza.png";
-import bd1_torso from "./Dolls/02_bd1_torso.png";
-import bd2_torso from "./Dolls/02_bd2_torso.png";
-import bd1_brazoizq from "./Dolls/03_bd1_brazoizq.png";
-import bd2_brazoizq from "./Dolls/03_bd2_brazoizq.png";
-import bd1_brazoder from "./Dolls/04_bd1_brazoder.png";
-import bd2_brazoder from "./Dolls/04_bd2_brazoder.png";
-import bd1_piernaizq from "./Dolls/05_bd1_piernaizq.png";
-import bd2_piernaizq from "./Dolls/05_bd2_piernaizq.png";
-import bd1_piernader from "./Dolls/06_bd1_piernader.png";
-import bd2_piernader from "./Dolls/06_bd2_piernader.png";
+import bd1_cabeza from "./Dolls/bd1_cabeza.png";
+import bd2_cabeza from "./Dolls/bd2_cabeza.png";
+import bd1_tronco from "./Dolls/bd1_tronco.png";
+import bd2_tronco from "./Dolls/bd2_tronco.png";
+import bd1_brazoizq from "./Dolls/bd1_brazoizquierdo.png";
+import bd2_brazoizq from "./Dolls/bd2_brazoizquierdo.png";
+import bd1_brazoder from "./Dolls/bd1_brazoderecho.png";
+import bd2_brazoder from "./Dolls/bd2_brazoderecho.png";
+import bd1_piernaizq from "./Dolls/bd1_piernaizquierda.png";
+import bd2_piernaizq from "./Dolls/bd2_piernaizquierda.png";
+import bd1_piernader from "./Dolls/bd1_piernaderecha.png";
+import bd2_piernader from "./Dolls/bd2_piernaderecha.png";
+import bd4_cabeza from "./Dolls/bd4_cabeza.png";
+import bd3_cabeza from "./Dolls/bd3_cabeza.png";
+import bd4_tronco from "./Dolls/bd4_tronco.png";
+import bd3_tronco from "./Dolls/bd3_tronco.png";
+import bd4_brazoizq from "./Dolls/bd4_brazoizquierdo.png";
+import bd3_brazoizq from "./Dolls/bd3_brazoizquierdo.png";
+import bd4_brazoder from "./Dolls/bd4_brazoderecho.png";
+import bd3_brazoder from "./Dolls/bd3_brazoderecho.png";
+import bd4_piernaizq from "./Dolls/bd4_piernaizquierda.png";
+import bd3_piernaizq from "./Dolls/bd3_piernaizquierda.png";
+import bd4_piernader from "./Dolls/bd4_piernaderecha.png";
+import bd3_piernader from "./Dolls/bd3_piernaderecha.png";
 
 const allBrokenParts = [
   bd1_cabeza,
   bd2_cabeza,
-  bd1_torso,
-  bd2_torso,
+  bd1_tronco,
+  bd2_tronco,
   bd1_brazoizq,
   bd2_brazoizq,
   bd1_brazoder,
@@ -28,6 +40,18 @@ const allBrokenParts = [
   bd2_piernaizq,
   bd1_piernader,
   bd2_piernader,
+  bd3_cabeza,
+  bd4_cabeza,
+  bd3_tronco,
+  bd4_tronco,
+  bd3_brazoizq,
+  bd4_brazoizq,
+  bd3_brazoder,
+  bd4_brazoder,
+  bd3_piernaizq,
+  bd4_piernaizq,
+  bd3_piernader,
+  bd4_piernader,
 ];
 
 const DollMaker = () => {
@@ -62,7 +86,7 @@ const DollMaker = () => {
   const makeRows = () => {
     const arrayOfArrays = [
       dollData.cabeza,
-      dollData.torso_brazoizq,
+      dollData.tronco_brazoizq,
       dollData.brazoder_piernaizq,
       dollData.piernader,
     ];
@@ -74,7 +98,7 @@ const DollMaker = () => {
       const comboArray = combination.split(",");
       comboArray.pop();
       const head = makeImageName(comboArray[0], "cabeza");
-      const torso = makeImageName(comboArray[1], "torso");
+      const tronco = makeImageName(comboArray[1], "tronco");
       const leftArm = makeImageName(comboArray[1], "brazoizq");
       const rightArm = makeImageName(comboArray[2], "brazoder");
       const leftLeg = makeImageName(comboArray[2], "piernaizq");
@@ -86,8 +110,8 @@ const DollMaker = () => {
           <td className="image-cell">
             <div className="image-container">
               <img
-                className="base torso"
-                src={getImage(torso)}
+                className="base tronco"
+                src={getImage(tronco)}
                 alt={`embla-${index}`}
               />
               <img
@@ -137,9 +161,9 @@ const DollMaker = () => {
           <label htmlFor="result">Result</label>
           <div className="image-container">
             <img
-              className="base torso"
-              src={getImage(makeImageName(leftSide, "torso"))}
-              alt={`torso`}
+              className="base tronco"
+              src={getImage(makeImageName(leftSide, "tronco"))}
+              alt={`tronco`}
             />
             <img
               className="part head"
@@ -182,7 +206,7 @@ const DollMaker = () => {
               id="left_side"
               onChange={(e) => setLeftSide(e.target.value)}
             >
-              {getBodyPart(dollData.torso_brazoizq)}
+              {getBodyPart(dollData.tronco_brazoizq)}
             </select>
           </div>
           <div className="label-set">
