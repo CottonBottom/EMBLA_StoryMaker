@@ -1,6 +1,6 @@
 {
-  "cabeza":["bd1","bd2","bd3","bd4"],
-  "tronco_brazoizq":["bd1","bd2","bd3","bd4"],
-  "brazoder_piernaizq":["bd1","bd2","bd3","bd4"],
-  "piernader":["bd1","bd2","bd3","bd4"]
+  "cabeza":["bd1","bd2","bd3","bd4","bd5","bd7","bd8","bd9","bd10"],
+  "tronco_brazoizq":["bd1","bd2","bd3","bd4","bd5","bd6","bd7","bd8","bd9","bd10"],
+  "brazoder_piernaizq":["bd1","bd2","bd3","bd4","bd5","bd6","bd7","bd8","bd9","bd10"],
+  "piernader":["bd1","bd2","bd3","bd4","bd5","bd6","bd7","bd8","bd9","bd10"]
 }
