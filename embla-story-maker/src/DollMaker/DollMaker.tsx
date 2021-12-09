@@ -34,7 +34,7 @@ import bd5_piernaizq from "./Dolls/bd5_piernaizquierda.png";
 import bd5_tronco from "./Dolls/bd5_tronco.png";
 import bd6_brazoder from "./Dolls/bd6_brazoderecho.png";
 import bd6_brazoizq from "./Dolls/bd6_brazoizquierdo.png";
-// import bd6_cabeza from "./Dolls/bd6_cabeza.png";
+import bd6_cabeza from "./Dolls/bd6_cabeza.png";
 import bd6_piernader from "./Dolls/bd6_piernaderecha.png";
 import bd6_piernaizq from "./Dolls/bd6_piernaizquierda.png";
 import bd6_tronco from "./Dolls/bd6_tronco.png";
@@ -62,6 +62,46 @@ import bd10_cabeza from "./Dolls/bd10_cabeza.png";
 import bd10_piernader from "./Dolls/bd10_piernaderecha.png";
 import bd10_piernaizq from "./Dolls/bd10_piernaizquierda.png";
 import bd10_tronco from "./Dolls/bd10_tronco.png";
+import bd11_cabeza from "./Dolls/bd11_cabeza.png";
+import bd12_cabeza from "./Dolls/bd12_cabeza.png";
+import bd13_cabeza from "./Dolls/bd13_cabeza.png";
+import bd14_cabeza from "./Dolls/bd14_cabeza.png";
+import bd15_cabeza from "./Dolls/bd15_cabeza.png";
+import bd16_cabeza from "./Dolls/bd16_cabeza.png";
+import bd17_cabeza from "./Dolls/bd17_cabeza.png";
+import bd18_cabeza from "./Dolls/bd18_cabeza.png";
+import bd19_cabeza from "./Dolls/bd19_cabeza.png";
+import bd20_cabeza from "./Dolls/bd20_cabeza.png";
+import bd21_cabeza from "./Dolls/bd21_cabeza.png";
+import bd22_cabeza from "./Dolls/bd22_cabeza.png";
+import bd23_cabeza from "./Dolls/bd23_cabeza.png";
+import bd24_cabeza from "./Dolls/bd24_cabeza.png";
+import bd25_cabeza from "./Dolls/bd25_cabeza.png";
+import bd26_cabeza from "./Dolls/bd26_cabeza.png";
+import bd27_cabeza from "./Dolls/bd27_cabeza.png";
+import bd28_cabeza from "./Dolls/bd28_cabeza.png";
+import bd29_cabeza from "./Dolls/bd29_cabeza.png";
+import bd30_cabeza from "./Dolls/bd30_cabeza.png";
+import bd31_cabeza from "./Dolls/bd31_cabeza.png";
+import bd32_cabeza from "./Dolls/bd32_cabeza.png";
+import bd33_cabeza from "./Dolls/bd33_cabeza.png";
+import bd34_cabeza from "./Dolls/bd34_cabeza.png";
+import bd35_cabeza from "./Dolls/bd35_cabeza.png";
+import bd36_cabeza from "./Dolls/bd36_cabeza.png";
+import bd37_cabeza from "./Dolls/bd37_cabeza.png";
+import bd38_cabeza from "./Dolls/bd38_cabeza.png";
+import bd39_cabeza from "./Dolls/bd39_cabeza.png";
+import bd40_cabeza from "./Dolls/bd40_cabeza.png";
+import bd41_cabeza from "./Dolls/bd41_cabeza.png";
+import bd42_cabeza from "./Dolls/bd42_cabeza.png";
+import bd43_cabeza from "./Dolls/bd43_cabeza.png";
+import bd44_cabeza from "./Dolls/bd44_cabeza.png";
+import bd45_cabeza from "./Dolls/bd45_cabeza.png";
+import bd46_cabeza from "./Dolls/bd46_cabeza.png";
+import bd47_cabeza from "./Dolls/bd47_cabeza.png";
+import bd48_cabeza from "./Dolls/bd48_cabeza.png";
+import bd49_cabeza from "./Dolls/bd49_cabeza.png";
+import bd50_cabeza from "./Dolls/bd50_cabeza.png";
 
 const allBrokenParts = [
   bd1_brazoder,
@@ -96,7 +136,7 @@ const allBrokenParts = [
   bd5_tronco,
   bd6_brazoder,
   bd6_brazoizq,
-  // bd6_cabeza,
+  bd6_cabeza,
   bd6_piernader,
   bd6_piernaizq,
   bd6_tronco,
@@ -124,6 +164,46 @@ const allBrokenParts = [
   bd10_piernader,
   bd10_piernaizq,
   bd10_tronco,
+  bd11_cabeza,
+  bd12_cabeza,
+  bd13_cabeza,
+  bd14_cabeza,
+  bd15_cabeza,
+  bd16_cabeza,
+  bd17_cabeza,
+  bd18_cabeza,
+  bd19_cabeza,
+  bd20_cabeza,
+  bd21_cabeza,
+  bd22_cabeza,
+  bd23_cabeza,
+  bd24_cabeza,
+  bd25_cabeza,
+  bd26_cabeza,
+  bd27_cabeza,
+  bd28_cabeza,
+  bd29_cabeza,
+  bd30_cabeza,
+  bd31_cabeza,
+  bd32_cabeza,
+  bd33_cabeza,
+  bd34_cabeza,
+  bd35_cabeza,
+  bd36_cabeza,
+  bd37_cabeza,
+  bd38_cabeza,
+  bd39_cabeza,
+  bd40_cabeza,
+  bd41_cabeza,
+  bd42_cabeza,
+  bd43_cabeza,
+  bd44_cabeza,
+  bd45_cabeza,
+  bd46_cabeza,
+  bd47_cabeza,
+  bd48_cabeza,
+  bd49_cabeza,
+  bd50_cabeza,
 ];
 
 const DollMaker = () => {
