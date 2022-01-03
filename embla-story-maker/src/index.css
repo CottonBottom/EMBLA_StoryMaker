@@ -75,15 +75,15 @@ td {
 }
 
 .base {
-  width: 400px;
+  width: 1000px;
   object-fit: cover;
 }
 
 .part {
   position: absolute;
-  top: 20px;
-  left: 30px;
-  width: 320px;
+  top: 150px;
+  left: 360px;
+  width: 260px;
   object-fit: cover;
   z-index: 10;
 }
@@ -94,6 +94,27 @@ td {
 
 .arm {
   z-index: 8;
+}
+
+.number-container {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  z-index: 20;
+}
+
+.number-container img {
+  width: 1000px;
+}
+
+.number {
+  position: absolute;
+  bottom: 110px;
+  left: 394px;
+  font-family: "Jura", sans-serif;
+  font-size: 24px;
+  color: #ccfffb;
+  z-index: 21;
 }
 
 .bd-maker-container {

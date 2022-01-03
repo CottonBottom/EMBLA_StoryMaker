@@ -3,6 +3,8 @@ import { combineArrays } from "./ArrayMethods";
 import dollData from "./DollDataLight.json";
 //Background:
 import background from "./Dolls/00_background.png";
+//Number Container:
+import number_container from "./Dolls/01_number_container.png";
 //Broken dolls:
 import bd1_brazoder from "./Dolls/bd1_brazoderecho.png";
 import bd1_brazoizq from "./Dolls/bd1_brazoizquierdo.png";
@@ -728,6 +730,21 @@ const DollMaker = () => {
     return allCombinations.length;
   };
 
+  const getDollCode = () => {
+    // return `${head} ${leftSide} ${rightSide} ${rightLeg}`;
+
+    const headNumber = head.replace(/\D/g, "");
+    const leftSideNumber = leftSide.replace(/\D/g, "");
+    const rightSideNumber = rightSide.replace(/\D/g, "");
+    const rightLegNumber = rightLeg.replace(/\D/g, "");
+
+    return `DOLL ${headNumber.length < 2 ? `0${headNumber}` : headNumber}-${
+      leftSideNumber.length < 2 ? `0${leftSideNumber}` : leftSideNumber
+    }-${rightSideNumber.length < 2 ? `0${rightSideNumber}` : rightSideNumber}-${
+      rightLegNumber.length < 2 ? `0${rightLegNumber}` : rightLegNumber
+    }`;
+  };
+
   // Commented to save resources
   // const makeRows = () => {
   //   const arrayOfArrays = [
@@ -837,6 +854,10 @@ const DollMaker = () => {
               src={getImage(makeImageName(rightLeg, "piernader"))}
               alt={`rightLeg`}
             />
+            <div className="number-container">
+              <img src={number_container} alt={`number_container`} />
+              <span className="number">{getDollCode()}</span>
+            </div>
           </div>
         </div>
         <div className="setup">
